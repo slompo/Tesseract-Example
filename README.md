@@ -27,16 +27,15 @@ public class Testtess {
 }
 ```
 ## Imagem utilizada
-A imagem utilizada foi a abaixo:
+A imagem utilizada foi a 
 ![placa](https://github.com/slompo/Tesseract-Example/blob/master/src/imagem/p1.jpg)
 
 ## Resultado
-Após rodar a aplicação temos o seguinte resultado:
-``` MMO-0058 ```
+Após rodar a aplicação temos o seguinte resultado ``` MMO-0058 ```
 
 ## Mudar idioma
 Para mudar o idioma da detecção OCR basta utilizar o trecho de código seguinte:
 ```java
 tessInst.setLanguage("por");
 ```
-Nesse caso o idioma adotado será o Português.
+Nesse caso o idioma adotado será o Português. Por padrão utiliza o Inglês ```eng```
