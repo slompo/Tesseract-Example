@@ -26,3 +26,10 @@ public class Testtess {
     }
 }
 ```
+## Imagem utilizada
+A imagem utilizada foi a abaixo:
+![placa](https://github.com/slompo/Tesseract-Example/blob/master/src/imagem/p1.jpg)
+
+## Resultado
+Após rodar a aplicação temos o seguinte resultado:
+``` MMO-0058 ```
