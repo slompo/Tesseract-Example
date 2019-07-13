@@ -31,7 +31,7 @@ A imagem utilizada foi a
 ![placa](https://github.com/slompo/Tesseract-Example/blob/master/src/imagem/p1.jpg)
 
 ## Resultado
-Após rodar a aplicação temos o seguinte resultado ``` MMO-0058 ```
+Após rodar a aplicação temos o seguinte resultado ``` MMM-0058 ```
 
 ## Mudar idioma
 Para mudar o idioma da detecção OCR basta utilizar o trecho de código seguinte:
@@ -39,3 +39,10 @@ Para mudar o idioma da detecção OCR basta utilizar o trecho de código seguint
 tessInst.setLanguage("por");
 ```
 Nesse caso o idioma adotado será o Português. Por padrão utiliza o Inglês ```eng```
+
+## Erro ao utilizar Português
+Ao adotar o idioma português a aplicação teve dificuldade em distinguir os números 
+apresentandos na imagem retornando o seguinte resultado:
+```
+MMM-OOSB
+```
